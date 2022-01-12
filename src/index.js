@@ -1,1 +1,5 @@
-console.log('hey, boss!');
+import "./style.scss";
+
+const greetings = (name) => console.log(`Good morning, ${name}!`);
+
+greetings('Davide');
